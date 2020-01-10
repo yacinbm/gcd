@@ -6,11 +6,11 @@
 -- divider between two 32 bit unsigned integers 
 -- using Stein's algorithm (https://en.wikipedia.org/wiki/Binary_GCD_algorithm)
 --------------------------------------
-
 -- NOTE: I chose to divide the process in small synchronous iterations
 -- because it will reduce the computing time of each iteration, therefore
 -- allowing for a faster clock speed when implementing this ALU inside
 -- a CPU for example. This explains the larger number of signals.
+
 library IEEE
 use IEEE.std_logic_1164.all
 
